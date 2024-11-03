@@ -2,41 +2,78 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  font-family: 'Young Serif', 'Outfit';  
+  background-color:  hsl(30, 54%, 90%);  
+}
+body {
+  background-color:  hsl(30, 54%, 90%); 
+}
+.container {  
+  max-width: 800px;  
+  margin: 50px auto;  
+  padding: 20px;  
+  background-color: white;  
+  border-radius: 10px;
+}  
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+  padding: 2px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {  
+  font-size: 2.5em;  
+  margin: 0;  
+  color: hsl(24, 5%, 18%);  
+}  
+
+h2 {  
+  font-size: 1.5em;  
+  color: hsl(14, 45%, 36%);  
+}  
+h3 {
+  color: hsl(332, 51%, 32%);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {  
+  font-size: 1em;  
+  line-height: 1.5;  
+} 
+
+.preparation-time {  
+  background-color: hsl(330, 100%, 98%);  
+  border-radius: 5px;  
+  padding: 15px;  
+  margin-bottom: 20px;
+}  
+
+ul {  
+  list-style-type: disc;  
+  padding-left: 20px;
+}
+ul li::marker {
+  color:  hsl(14, 45%, 36%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+ol {  
+  padding-left: 20px;  
+}  
+ol li::marker {  
+  color:  hsl(14, 45%, 36%);
+  font-weight: bold;
 }
 
-.card {
-  padding: 2em;
+.table {  
+  width: 100%;  
+  margin-top: 20px; 
+}  
+.table td:nth-child(2) {
+  color: hsl(14, 45%, 36%);
+  
+  font-weight: bold;
 }
-
-.read-the-docs {
-  color: #888;
-}
+.table td {  
+  padding: 10px;  
+  text-align: left;  
+}  
