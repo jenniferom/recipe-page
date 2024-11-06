@@ -22,14 +22,14 @@ const RecipeContainer =()=>{
                   <li>Salt, to taste</li>
                   <li>Pepper, to taste</li>
                   <li>1 tablepoon of butter or oil</li>
-                  <li>Optional filling: chesse, diced vegetables, cooked meats, herbs</li>
+                  <li>Optional filling: cheese, diced vegetables, cooked meats, herbs</li>
                 </ul>
             </section>
 
             <section title="Instructions">
               <h2>Instructions</h2>
               <ol>
-                <li><b>Beat the eggs</b>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of wahter or milk for a fluffier texture.</li>
+                <li><strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of wahter or milk for a fluffier texture.</li>
                 <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
                 <li><b>Cook the omelette</b>:  Once the butter is melted and bubbling, pour in the eggs. Tit the pan to ensure the eggs evenly coat the surface.</li>
                 <li><b>Add fillings (optional)</b>: When the eggs begin to set al the edges but ae still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette</li>
