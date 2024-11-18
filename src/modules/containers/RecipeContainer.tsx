@@ -1,3 +1,6 @@
+import Section from "../components/Section";
+
+
 const RecipeContainer =()=>{
     return(
         <div className="container">
@@ -15,8 +18,7 @@ const RecipeContainer =()=>{
               </ul>
             </div>
 
-            <section title="Ingredients" >
-                <h2>Ingredients</h2>
+            <Section title="Ingredients" >
                 <ul>
                   <li>2-3 large eggs</li>
                   <li>Salt, to taste</li>
@@ -24,10 +26,9 @@ const RecipeContainer =()=>{
                   <li>1 tablepoon of butter or oil</li>
                   <li>Optional filling: cheese, diced vegetables, cooked meats, herbs</li>
                 </ul>
-            </section>
+            </Section>
 
-            <section title="Instructions">
-              <h2>Instructions</h2>
+            <Section title="Instructions">
               <ol>
                 <li><strong>Beat the eggs</strong>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of wahter or milk for a fluffier texture.</li>
                 <li><b>Heat the pan</b>: Place a non-stick frying pan over medium heat and add butter or oil.</li>
@@ -36,10 +37,9 @@ const RecipeContainer =()=>{
                 <li><b>Fold and serve</b>: As the omelette continues to cook, carefully lift one edge ad fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>
                 <li><b>Enjoy</b>: Serve hot, with additional salt and pepper if needed</li>
               </ol>
-            </section>
+            </Section>
 
-            <section title="Nutrition">
-              <h2>Nutrition</h2>
+            <Section title="Nutrition">
               <p>The table below shows nutritional values per serving without the additional fillings</p>
               <table className="table">
                 <tbody>
@@ -61,7 +61,7 @@ const RecipeContainer =()=>{
                   </tr>
                 </tbody>
               </table>
-            </section>
+            </Section>
         </div>
     );
 }
