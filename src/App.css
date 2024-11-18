@@ -44,9 +44,6 @@ p {
   font-size: 15px;
   font-family: Outfit, serif;
 }
-b {
-  font-weight: 600;
-}
 
 .preparation-time {  
   background-color: hsl(330, 100%, 98%);  
@@ -92,6 +89,7 @@ section:last-child {
 }
 .table td:nth-child(2) {
   color: hsl(14, 45%, 36%);
+  font-weight: 600;
 }
 td {
   text-align: left;
