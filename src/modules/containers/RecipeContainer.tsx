@@ -5,7 +5,7 @@ const RecipeContainer =()=>{
     return(
         <div className="container">
             
-            <img className="image" src="src/assets/images/image-omelette.jpeg" alt="omelette" />
+            <img className="image" src="/images/image-omelette.jpeg" alt="omelette" />
             
             <h1>Simple Omelette Recipe</h1>
             <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of chesse, vegetables, or meats.</p>
