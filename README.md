@@ -30,5 +30,5 @@ Build out the project to the designs provided
 
 ## Solution URL
 
-- Website - [jenniferom](https://github.com/jenniferom/recipe-page.git)
-- Frontend Mentor - [jenniferom](https://recipe-page-eta-sage.vercel.app)
+- GitHub - [https://github.com/jenniferom/recipe-page.git](https://github.com/jenniferom/recipe-page.git)
+- Active page - [https://recipe-page-eta-sage.vercel.app](https://recipe-page-eta-sage.vercel.app)
